@@ -20,15 +20,24 @@
 							{
 								"type": "cardContent",
 								"dataKey": "profile",
-								"actionConfig": {
-									"type": "SAVE_TO_FIRESTORE",
-									"collection": "users",
-									"document": "${uid}",
-									"data": {
-										"hasConfirmedOnboarding": true,
-										"hasConfirmedOnboardingAt": "${now}"
+								"actionConfig": [
+									{
+										"type": "SAVE_TO_FIRESTORE",
+										"collection": "users",
+										"document": "${uid}",
+										"data": {
+											"hasConfirmedOnboarding": true,
+											"hasConfirmedOnboardingAt": "${now}"
+										}
+									},
+									{
+										"type": "NAVIGATE_TO",
+										"data": {
+											"path": "/workspace/agents"
+										}
 									}
-								},
+								],
+
 								"contentConfig": {
 									"contentType": "DataForm",
 									"schema": {
