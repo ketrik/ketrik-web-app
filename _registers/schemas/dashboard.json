@@ -182,7 +182,7 @@
 			{
 				"id": "zone_1_split_schematic_metrics",
 				"header": "Dual-Runtime Telemetry Plane",
-				"disable": true,
+				"disable": false,
 				"itemSize": { "xs": 12, "sm": 6, "md": 3 },
 				"itemDefaults": {
 					"cardType": "card",
@@ -343,18 +343,46 @@
 						"cardConfig": [
 							{
 								"type": "cardHeader",
-								"subheader": "You can create and explore custom workspaces to design example dashboards, experiment with layout schemas, and showcase KPI views."
+								"subheader": "You  can explore custom workspaces to design example dashboards, experiment with layout schemas, and showcase KPI views."
 							},
 							{
 								"type": "cardAction",
 								"sx": { "px": 2, "pb": 1.5, "pt": 0.5, "gap": 1 },
 								"buttons": [
 									{
-										"label": "View  Workspaces",
+										"label": "Company Overview",
 										"variant": "contained",
 										"color": "primary",
 										"actionType": "nav",
-										"href": "/workspace"
+										"href": "/workspace/overview"
+									},
+									{
+										"label": "KPI Dashboard",
+										"variant": "outlined",
+										"color": "error",
+										"actionType": "nav",
+										"href": "/workspace/kpi"
+									},
+									{
+										"label": "Analytics & Charts",
+										"variant": "outlined",
+										"color": "warning",
+										"actionType": "nav",
+										"href": "/workspace/analytics"
+									},
+									{
+										"label": "Live News & Signals",
+										"variant": "outlined",
+										"color": "primary",
+										"actionType": "nav",
+										"href": "/workspace/overview"
+									},
+									{
+										"label": "Knowledge Assistant",
+										"variant": "contained",
+										"color": "warning",
+										"actionType": "nav",
+										"href": "/workspace/assistant"
 									}
 								]
 							}
@@ -364,6 +392,7 @@
 			},
 			{
 				"id": "playground_split_console",
+				"disable": false,
 				"itemSize": { "xs": 12, "md": 6 },
 				"header": "The Playground ",
 				"items": [
@@ -538,295 +567,6 @@
 										"fontSize": "0.8rem"
 									}
 								}
-							}
-						]
-					}
-				]
-			},
-			{
-				"id": "blueprints_gallery_grid",
-				"header": "Production Solution Blueprints",
-				"itemSize": { "xs": 12, "md": 6 },
-				"itemDefaults": {
-					"cardType": "actionCard",
-					"cardProps": {
-						"raised": true
-					}
-				},
-				"items": [
-					{
-						"cardActionUrl": "/blueprints/deploy/financial-risk-matrix",
-						"cardConfig": [
-							{
-								"type": "cardHeader",
-								"dataKey": "fin_risk_blueprint",
-								"map": {
-									"title": "title",
-									"description": "subheader"
-								},
-								"sx": {
-									"& .MuiCardHeader-title": {
-										"color": "#38bdf8",
-										"fontSize": "1.1rem",
-										"fontWeight": 600
-									},
-									"& .MuiCardHeader-subheader": {
-										"color": "#94a3b8",
-										"fontSize": "0.85rem",
-										"mt": 0.5,
-										"lineHeight": 1.4
-									}
-								}
-							},
-							{
-								"type": "cardMedia",
-								"dataKey": "fin_risk_blueprint",
-								"map": { "preview_svg": "image" },
-								"component": "img",
-								"sx": {
-									"width": "100%",
-									"height": "auto",
-									"objectFit": "contain",
-									"px": 2,
-									"pb": 1
-								}
-							},
-							{
-								"type": "cardContent",
-								"dataKey": "fin_risk_blueprint",
-								"contentConfig": {
-									"contentType": "StatContent",
-									"subVariant": "TrendSub",
-									"title": "Active Production Deployments",
-									"sub": "tenant instances",
-									"format": { "style": "decimal" },
-									"trendFormat": { "style": "percent" }
-								}
-							},
-							{
-								"type": "cardAction",
-								"sx": { "px": 2, "pb": 2, "borderTop": "1px solid #1e293b" },
-								"buttons": [
-									{
-										"label": "Deploy to Workspace",
-										"variant": "contained",
-										"color": "primary",
-										"actionType": "nav"
-									},
-									{
-										"label": "Preview Blueprint Spec",
-										"variant": "outlined",
-										"color": "info",
-										"actionType": "callback"
-									}
-								]
-							}
-						]
-					},
-					{
-						"cardActionUrl": "/blueprints/deploy/marketing-funnel-ops",
-						"cardConfig": [
-							{
-								"type": "cardHeader",
-								"dataKey": "marketing_funnel_blueprint",
-								"map": {
-									"title": "title",
-									"description": "subheader"
-								},
-								"sx": {
-									"& .MuiCardHeader-title": {
-										"color": "#818cf8",
-										"fontSize": "1.1rem",
-										"fontWeight": 600
-									},
-									"& .MuiCardHeader-subheader": {
-										"color": "#94a3b8",
-										"fontSize": "0.85rem",
-										"mt": 0.5,
-										"lineHeight": 1.4
-									}
-								}
-							},
-							{
-								"type": "cardMedia",
-								"dataKey": "marketing_funnel_blueprint",
-								"map": { "preview_svg": "image" },
-								"component": "img",
-								"sx": {
-									"width": "100%",
-									"height": "auto",
-									"objectFit": "contain",
-									"px": 2,
-									"pb": 1
-								}
-							},
-							{
-								"type": "cardContent",
-								"dataKey": "marketing_funnel_blueprint",
-								"contentConfig": {
-									"contentType": "StatContent",
-									"subVariant": "TrendSub",
-									"title": "Active Production Deployments",
-									"sub": "tenant instances",
-									"format": { "style": "decimal" },
-									"trendFormat": { "style": "percent" }
-								}
-							},
-							{
-								"type": "cardAction",
-								"sx": { "px": 2, "pb": 2, "borderTop": "1px solid #1e293b" },
-								"buttons": [
-									{
-										"label": "Deploy to Workspace",
-										"variant": "contained",
-										"color": "primary",
-										"actionType": "nav"
-									},
-									{
-										"label": "Preview Blueprint Spec",
-										"variant": "outlined",
-										"color": "info",
-										"actionType": "callback"
-									}
-								]
-							}
-						]
-					},
-					{
-						"cardActionUrl": "/blueprints/deploy/infra-pipeline-health",
-						"cardConfig": [
-							{
-								"type": "cardHeader",
-								"dataKey": "infra_pipeline_blueprint",
-								"map": {
-									"title": "title",
-									"description": "subheader"
-								},
-								"sx": {
-									"& .MuiCardHeader-title": {
-										"color": "#34d399",
-										"fontSize": "1.1rem",
-										"fontWeight": 600
-									},
-									"& .MuiCardHeader-subheader": {
-										"color": "#94a3b8",
-										"fontSize": "0.85rem",
-										"mt": 0.5,
-										"lineHeight": 1.4
-									}
-								}
-							},
-							{
-								"type": "cardMedia",
-								"dataKey": "infra_pipeline_blueprint",
-								"map": { "preview_svg": "image" },
-								"component": "img",
-								"sx": {
-									"width": "100%",
-									"height": "auto",
-									"objectFit": "contain",
-									"px": 2,
-									"pb": 1
-								}
-							},
-							{
-								"type": "cardContent",
-								"dataKey": "infra_pipeline_blueprint",
-								"contentConfig": {
-									"contentType": "StatContent",
-									"subVariant": "TrendSub",
-									"title": "Active Production Deployments",
-									"sub": "tenant instances",
-									"format": { "style": "decimal" },
-									"trendFormat": { "style": "percent" }
-								}
-							},
-							{
-								"type": "cardAction",
-								"sx": { "px": 2, "pb": 2, "borderTop": "1px solid #1e293b" },
-								"buttons": [
-									{
-										"label": "Deploy to Workspace",
-										"variant": "contained",
-										"color": "primary",
-										"actionType": "nav"
-									},
-									{
-										"label": "Preview Blueprint Spec",
-										"variant": "outlined",
-										"color": "info",
-										"actionType": "callback"
-									}
-								]
-							}
-						]
-					},
-					{
-						"cardActionUrl": "/blueprints/deploy/trading-execution-telemetry",
-						"cardConfig": [
-							{
-								"type": "cardHeader",
-								"dataKey": "trading_exec_blueprint",
-								"map": {
-									"title": "title",
-									"description": "subheader"
-								},
-								"sx": {
-									"& .MuiCardHeader-title": {
-										"color": "#f59e0b",
-										"fontSize": "1.1rem",
-										"fontWeight": 600
-									},
-									"& .MuiCardHeader-subheader": {
-										"color": "#94a3b8",
-										"fontSize": "0.85rem",
-										"mt": 0.5,
-										"lineHeight": 1.4
-									}
-								}
-							},
-							{
-								"type": "cardMedia",
-								"dataKey": "trading_exec_blueprint",
-								"map": { "preview_svg": "image" },
-								"component": "img",
-								"sx": {
-									"width": "100%",
-									"height": "auto",
-									"objectFit": "contain",
-									"px": 2,
-									"pb": 1
-								}
-							},
-							{
-								"type": "cardContent",
-								"dataKey": "trading_exec_blueprint",
-								"contentConfig": {
-									"contentType": "StatContent",
-									"subVariant": "TrendSub",
-									"title": "Active Production Deployments",
-									"sub": "tenant instances",
-									"format": { "style": "decimal" },
-									"trendFormat": { "style": "percent" }
-								}
-							},
-							{
-								"type": "cardAction",
-								"sx": { "px": 2, "pb": 2, "borderTop": "1px solid #1e293b" },
-								"buttons": [
-									{
-										"label": "Deploy to Workspace",
-										"variant": "contained",
-										"color": "primary",
-										"actionType": "nav"
-									},
-									{
-										"label": "Preview Blueprint Spec",
-										"variant": "outlined",
-										"color": "info",
-										"actionType": "callback"
-									}
-								]
 							}
 						]
 					}
