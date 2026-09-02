@@ -22,6 +22,7 @@
 								"dataKey": "profile",
 								"actionConfig": [
 									{
+										"type": "CREATE_JOB",
 										"jobId": "${uid}_workspace_overview",
 										"docId": "data",
 										"agent": "workspace",
