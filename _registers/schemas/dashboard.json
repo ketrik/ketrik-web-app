@@ -359,14 +359,14 @@
 									{
 										"label": "KPI Dashboard",
 										"variant": "outlined",
-										"color": "error",
+										"color": "primary",
 										"actionType": "nav",
 										"href": "/workspace/kpi"
 									},
 									{
 										"label": "Analytics & Charts",
 										"variant": "outlined",
-										"color": "warning",
+										"color": "primary",
 										"actionType": "nav",
 										"href": "/workspace/analytics"
 									},
@@ -375,12 +375,12 @@
 										"variant": "outlined",
 										"color": "primary",
 										"actionType": "nav",
-										"href": "/workspace/overview"
+										"href": "/workspace/news"
 									},
 									{
 										"label": "Knowledge Assistant",
-										"variant": "contained",
-										"color": "warning",
+										"variant": "outlined",
+										"color": "primary",
 										"actionType": "nav",
 										"href": "/workspace/assistant"
 									}
