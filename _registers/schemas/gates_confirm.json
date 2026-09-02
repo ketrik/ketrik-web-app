@@ -22,6 +22,17 @@
 								"dataKey": "profile",
 								"actionConfig": [
 									{
+										"jobId": "${uid}_workspace_overview",
+										"docId": "data",
+										"agent": "workspace",
+										"path": "users/${uid}/workspace_overview",
+										"params": {
+											"workspaceId": "overview",
+											"goal": "Create an executive-level Company Dossier page for the user's company."
+										}
+									},
+
+									{
 										"type": "SAVE_TO_FIRESTORE",
 										"collection": "users",
 										"document": "${uid}",
