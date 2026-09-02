@@ -1655,7 +1655,7 @@
 														"path": "users/${uid}/workspace_analytics",
 														"params": {
 															"workspaceId": "analytics",
-															"goal": "Create an executive-level company Analytics dashboard with various MUI charts only should have 4-8 charts. Data doesn't need to real, just need to relevant to company.  YOU ALWAYS OUTPUT summary as bullet points AND last bit include this text as well make note that ALL figures are not representavite just acts as placeholder for actual figures or estimation."
+															"goal": "Create an executive-level company Analytics dashboard featuring 4 to 8 relevant MUI charts (e.g., revenue growth, customer acquisition, churn, burn rate, or unit economics) tailored to the user's company and industry. Data can be realistic estimates based on industry benchmarks. ALWAYS output an executive summary below the charts formatted as concise bullet points.  At the very end, include the exact note: 'All figures are placeholders/estimations and are not representative of actual figures.'"
 														}
 													},
 													{
@@ -1666,7 +1666,7 @@
 														"path": "users/${uid}/workspace_news",
 														"params": {
 															"workspaceId": "news",
-															"goal": "Search the web and create an executive-level dashboard tailored strictly to the user's industry and company type (e.g., startups). Structure the dashboard into distinct, separate sections: 1) 'Industry News & Updates' (covering recent news, press releases, and announcements, including publication dates) and 2) 'Upcoming Events & Conferences' (covering relevant industry conferences, summits, and meetups, including event dates). Curate 10 to 20 total credible links/sources across these sections. ALWAYS OUTPUT summaries under each section as bullet points, clearly including the date and source alongside each headline/event. ONLY USE DATA FROM CREDIBLE NEWS SITES, OFFICIAL EVENT PAGES, AND PRESS RELEASES. HERO IS NOT NEEDED. At the very end, include the note: 'All figures are placeholders/estimations and are not representative of actual figures.'"
+															"goal": "Search the web and create an executive-level dashboard tailored strictly to the user's industry and company type (e.g., startups). Structure the dashboard into two distinct sections: 1) 'Industry News & Updates' (recent news, press releases, and announcements with publication dates) and 2) 'Upcoming Events & Conferences' (relevant industry conferences, summits, and meetups with event dates). Curate 10 to 20 total credible sources across these sections. ALWAYS output summaries under each section as bullet points. EVERY bullet point MUST contain a direct, clickable Markdown link to the source URL (e.g. [Source Name](url)), along with the date and source headline. ONLY USE DATA FROM CREDIBLE NEWS SITES, OFFICIAL EVENT PAGES, AND PRESS RELEASES. HERO IS NOT NEEDED."
 														}
 													},
 													{
@@ -1679,17 +1679,17 @@
 															"workspaceId": "knowledge",
 															"goal": "Bootstrap company knowledge base and scrape documentation. Also search how company solution compare to competitors."
 														}
-													},
-													{
-														"type": "SAVE_TO_FIRESTORE",
-														"collection": "users",
-														"document": "${uid}",
-														"data": {
-															"hasConfirmedOnboarding": true,
-															"hasConfirmedOnboardingAt": "${now}"
-														}
 													}
 												]
+											},
+											{
+												"type": "SAVE_TO_FIRESTORE",
+												"collection": "users",
+												"document": "${uid}",
+												"data": {
+													"hasConfirmedOnboarding": true,
+													"hasConfirmedOnboardingAt": "${now}"
+												}
 											},
 											{
 												"type": "NAVIGATE_TO",
