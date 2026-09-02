@@ -703,7 +703,7 @@
 					{
 						"id": "zone_1_split_schematic_metrics",
 						"header": "Dual-Runtime Telemetry Plane",
-						"disable": false,
+						"disable": true,
 						"itemSize": {
 							"xs": 12,
 							"sm": 6,
@@ -938,7 +938,7 @@
 					},
 					{
 						"id": "playground_split_console",
-						"disable": false,
+						"disable": true,
 						"itemSize": {
 							"xs": 12,
 							"md": 6
