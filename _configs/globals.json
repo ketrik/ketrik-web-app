@@ -899,35 +899,30 @@
 												"label": "Company Overview",
 												"variant": "contained",
 												"color": "primary",
-												"actionType": "nav",
 												"href": "/workspace/overview"
 											},
 											{
 												"label": "KPI Dashboard",
 												"variant": "outlined",
 												"color": "primary",
-												"actionType": "nav",
 												"href": "/workspace/kpi"
 											},
 											{
 												"label": "Analytics & Charts",
 												"variant": "outlined",
 												"color": "primary",
-												"actionType": "nav",
 												"href": "/workspace/analytics"
 											},
 											{
 												"label": "Live News & Signals",
 												"variant": "outlined",
 												"color": "primary",
-												"actionType": "nav",
 												"href": "/workspace/news"
 											},
 											{
 												"label": "Knowledge Assistant",
 												"variant": "outlined",
 												"color": "primary",
-												"actionType": "nav",
 												"href": "/workspace/assistant"
 											}
 										]
@@ -975,7 +970,6 @@
 												"label": "Prompt-to-UI",
 												"variant": "contained",
 												"color": "primary",
-												"actionType": "callback",
 												"href": "/"
 											}
 										]
