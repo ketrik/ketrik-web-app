@@ -1324,7 +1324,7 @@
 														"path": "users/${uid}/workspace_overview",
 														"params": {
 															"workspaceId": "overview",
-															"goal": "Create an executive-level Company Dossier page for the user's company."
+															"goal": "Create an executive-level Company Dossier page for the user's company.Include an appropriate company logo or hero image if one can be found. "
 														}
 													},
 													{
