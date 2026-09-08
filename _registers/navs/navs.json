@@ -1,16 +1,4 @@
 {
-	"accountMenu": [
-		{
-			"title": "Profile",
-			"segment": "profile",
-			"icon": "Person"
-		},
-		{
-			"title": "Settings",
-			"segment": "settings",
-			"icon": "Settings"
-		}
-	],
 	"topbar": [
 		{
 			"title": "Home",

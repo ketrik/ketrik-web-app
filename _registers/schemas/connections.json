@@ -1,0 +1,94 @@
+{
+	"dataPath": {
+		"path": "users/${uid}/context/connections"
+	},
+
+	"config": {
+		"header": "Connections",
+		"isFullSize": false,
+		"maxWidth": "md",
+
+		"groups": [
+			{
+				"id": "connections",
+				"itemSize": 12,
+				"items": [
+					{
+						"cardConfig": [
+							{
+								"type": "cardAction",
+								"sx": {
+									"justifyContent": "flex-end"
+								},
+								"buttons": [
+									{
+										"label": "Add Connection",
+										"color": "primary",
+										"variant": "contained",
+										"startIcon": "Plus",
+										"actionConfig": {
+											"action": "openModal",
+											"modalId": "addConnectionModal"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"cardConfig": [
+							{
+								"type": "cardContent",
+								"dataKey": "profile",
+								"actionConfig": {
+									"type": "SAVE_TO_FIRESTORE",
+									"collection": "users",
+									"document": "${uid}"
+								},
+								"contentConfig": {
+									"contentType": "DataForm",
+									"schema": {
+										"properties": {
+											"displayName": {
+												"type": "string",
+												"title": "Display Name"
+											},
+											"companyName": {
+												"type": "string",
+												"title": "Company Name"
+											},
+											"companyUrl": {
+												"type": "string",
+												"title": "Company URL",
+												"pattern": "^(https?:\\/\\/)?([a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,}(\\/.*)?$"
+											},
+											"profession": {
+												"type": "string",
+												"title": "Profession"
+											}
+										},
+										"required": [
+											"displayName",
+											"companyName",
+											"companyUrl",
+											"profession"
+										],
+										"type": "object"
+									},
+									"uiSchema": {
+										"ui:order": [
+											"displayName",
+											"profession",
+											"companyName",
+											"companyUrl"
+										]
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
