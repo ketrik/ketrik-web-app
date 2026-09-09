@@ -16,7 +16,7 @@
 		"groups": [
 			{
 				"id": "connection",
-				"itemSize": 12,
+				"itemSize": 2,
 				"items": [
 					{
 						"cardConfig": [
@@ -25,7 +25,7 @@
 								"map": {
 									"icon": "avatar",
 									"displayName": "title",
-									"category": "subheader"
+									"categoryLabel": "subheader"
 								},
 
 								"defaults": {
@@ -34,6 +34,84 @@
 									"subheader": "test subheader",
 									"disableTypography": false
 								}
+							}
+						]
+					},
+
+					{
+						"cardType": "card",
+						"cardProps": {
+							"variant": "outlined"
+						},
+						"cardConfig": [
+							{
+								"type": "cardHeader",
+								"dataKey": "connections",
+								"map": {
+									"name": "title",
+									"categoryLabel": "subheader",
+									"logo": "avatar"
+								},
+								"sx": {
+									"& .MuiCardHeader-title": {
+										"fontWeight": 600
+									}
+								}
+							},
+							{
+								"type": "cardAction",
+								"sx": {
+									"justifyContent": "flex-end"
+								},
+								"buttons": [
+									{
+										"label": "Manage",
+										"variant": "outlined",
+										"size": "small",
+										"color": "primary",
+										"href": "/connections"
+									}
+								]
+							}
+						]
+					},
+
+					{
+						"cardType": "actionCard",
+						"url": "/connections/new?type=snowflake",
+						"cardProps": {
+							"variant": "outlined",
+							"sx": {
+								"borderRadius": "12px",
+								"transition": "border-color 0.2s, box-shadow 0.2s",
+								"&:hover": {
+									"borderColor": "primary.main",
+									"boxShadow": 2
+								}
+							}
+						},
+						"cardConfig": [
+							{
+								"type": "cardHeader",
+								"title": "Snowflake Data Cloud",
+								"subheader": "Data Warehouse",
+								"avatar": "Snowflake"
+							},
+							{
+								"type": "cardAction",
+								"sx": {
+									"justifyContent": "flex-end"
+								},
+								"buttons": [
+									{
+										"label": "Connect",
+										"variant": "contained",
+										"size": "small",
+										"color": "primary",
+										"startIcon": "Plus",
+										"href": "/connections/new?type=snowflake"
+									}
+								]
 							}
 						]
 					}
