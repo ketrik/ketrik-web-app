@@ -15,7 +15,7 @@
 		"dataKey": "catalog",
 		"groups": [
 			{
-				"id": "profile",
+				"id": "connection",
 				"itemSize": 12,
 				"items": [
 					{
@@ -23,13 +23,13 @@
 							{
 								"type": "cardHeader",
 								"map": {
-									"avatar": "icon",
-									"title": "displayName",
-									"subheader": "category"
+									"icon": "avatar",
+									"displayName": "title",
+									"category": "subheader"
 								},
 
 								"defaults": {
-									"avatar": "W",
+									"avatar": { "label": "W" },
 									"title": "title",
 									"subheader": "test subheader",
 									"disableTypography": false
