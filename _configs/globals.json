@@ -614,9 +614,24 @@
 				"groups": [
 					{
 						"id": "connection",
-						"itemSize": 2,
+						"itemSize": {
+							"sm": 2
+						},
 						"items": [
 							{
+								"cardType": "actionCard",
+								"url": "/connections/new?type=snowflake",
+								"cardProps": {
+									"variant": "outlined",
+									"sx": {
+										"borderRadius": "12px",
+										"transition": "border-color 0.2s, box-shadow 0.2s",
+										"&:hover": {
+											"borderColor": "primary.main",
+											"boxShadow": 2
+										}
+									}
+								},
 								"cardConfig": [
 									{
 										"type": "cardHeader",
@@ -644,7 +659,6 @@
 								"cardConfig": [
 									{
 										"type": "cardHeader",
-										"dataKey": "connections",
 										"map": {
 											"name": "title",
 											"categoryLabel": "subheader",
