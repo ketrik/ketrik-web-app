@@ -1,12 +1,14 @@
 {
-	"data": {
+	"url": "/connections-catalog.json",
+
+	"data2": {
 		"article": {
 			"type": "remote",
 			"url": "/connections-catalog.json"
 		}
 	},
 	"config": {
-		"header": "Add New Connection",
+		"header": "Add Connection",
 		"isFullSize": false,
 		"maxWidth": "md",
 		"childComponent": "DisplayData",
