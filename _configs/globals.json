@@ -620,7 +620,7 @@
 						"items": [
 							{
 								"cardType": "actionCard",
-								"url": "/connections/new?type=snowflake",
+								"cardActionUrl": "/connections/new/${id}",
 								"cardProps": {
 									"variant": "outlined",
 									"sx": {
