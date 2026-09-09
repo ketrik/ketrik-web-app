@@ -534,10 +534,7 @@
 												"color": "primary",
 												"variant": "contained",
 												"startIcon": "Plus",
-												"actionConfig": {
-													"action": "openModal",
-													"modalId": "addConnectionModal"
-												}
+												"href": "/connections/new"
 											}
 										]
 									}
@@ -591,6 +588,48 @@
 													"companyUrl"
 												]
 											}
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		},
+		"connections_new": {
+			"data": {
+				"article": {
+					"type": "remote",
+					"url": "/connections-catalog.json"
+				}
+			},
+			"config": {
+				"header": "Add New Connection",
+				"isFullSize": false,
+				"maxWidth": "md",
+				"childComponent": "DisplayData",
+				"dataKey": "catalog",
+				"groups": [
+					{
+						"id": "profile",
+						"itemSize": 2,
+						"items": [
+							{
+								"cardConfig": [
+									{
+										"type": "cardHeader",
+										"dataKey": "header",
+										"map": {
+											"avatar": "icon",
+											"title": "displayName",
+											"subheader": "category"
+										},
+										"defaults": {
+											"avatar": "W",
+											"title": "title",
+											"subheader": "test subheader",
+											"disableTypography": false
 										}
 									}
 								]

@@ -26,10 +26,7 @@
 										"color": "primary",
 										"variant": "contained",
 										"startIcon": "Plus",
-										"actionConfig": {
-											"action": "openModal",
-											"modalId": "addConnectionModal"
-										}
+										"href": "/connections/new"
 									}
 								]
 							}
