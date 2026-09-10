@@ -666,20 +666,19 @@
 				}
 			},
 			"config": {
-				"header": "",
 				"isFullSize": false,
 				"maxWidth": "md",
 				"groups": [
 					{
-						"id": "profile",
+						"id": "connection",
 						"itemSize": 12,
 						"items": [
 							{
-								"header": "Profile",
+								"header": "Connection",
 								"cardConfig": [
 									{
 										"type": "cardContent",
-										"dataKey": "profile",
+										"dataKey": "connection",
 										"actionConfig": {
 											"type": "SAVE_TO_FIRESTORE",
 											"collection": "users",
