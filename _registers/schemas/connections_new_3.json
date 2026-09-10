@@ -1,0 +1,40 @@
+{
+	"data": {
+		"profile": true,
+		"connection": {
+			"type": "remote",
+			"url": "/connections-catalog.json",
+			"metadataKey": "schemas.${id}"
+		}
+	},
+	"config": {
+		"header": "",
+		"isFullSize": false,
+		"maxWidth": "md",
+		"groups": [
+			{
+				"id": "profile",
+				"itemSize": 12,
+				"items": [
+					{
+						"header": "Profile",
+						"cardConfig": [
+							{
+								"type": "cardContent",
+								"dataKey": "profile",
+								"actionConfig": {
+									"type": "SAVE_TO_FIRESTORE",
+									"collection": "users",
+									"document": "${uid}"
+								},
+								"contentConfig": {
+									"contentType": "DataForm"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
