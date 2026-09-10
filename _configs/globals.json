@@ -662,7 +662,7 @@
 				"connection": {
 					"type": "remote",
 					"url": "/connections-catalog.json",
-					"metadataKey": "schemas.${id}"
+					"metadataKey": "schemas.${slug}"
 				}
 			},
 			"config": {
