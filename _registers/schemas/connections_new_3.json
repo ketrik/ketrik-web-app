@@ -20,7 +20,8 @@
 						"cardConfig": [
 							{
 								"type": "cardContent",
-								"dataKey": "connection",
+								"dataKey": "",
+								"metadataKey": "connection",
 								"actionConfig": {
 									"type": "SAVE_TO_FIRESTORE",
 									"collection": "users",
