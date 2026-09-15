@@ -566,10 +566,15 @@
 											},
 											"columnWidths": {
 												"logo": 40,
-												"id": 150
+												"id": 200
 											},
 											"columnsAlign": {
-												"logo": "center"
+												"logo": "center",
+												"status": "center",
+												"createdAt": "center"
+											},
+											"columnsFlex": {
+												"name": 1
 											},
 											"dataFormatters": {
 												"createdAt": "ago"
