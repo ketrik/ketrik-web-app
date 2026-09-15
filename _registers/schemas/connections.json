@@ -31,6 +31,16 @@
 								]
 							}
 						]
+					},
+					{
+						"type": "cardContent",
+						"dataKey": "connections",
+						"dataToArray": true,
+
+						"contentConfig": {
+							"density": "compact",
+							"contentType": "DataGridContent"
+						}
 					}
 				]
 			}
