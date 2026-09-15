@@ -38,18 +38,18 @@
 								"contentConfig": {
 									"density": "compact",
 									"contentType": "DataGridContent",
-									"columns": ["logo", "id", "name", "status", "createdAt"]
-								},
-								"headerTitles": {
-									"name": "Name",
-									"status": "Status",
-									"createdAt": "Created At"
-								},
-								"idColumnName": "id",
+									"columns": ["logo", "id", "name", "status", "createdAt"],
+									"headerTitles": {
+										"name": "Name",
+										"status": "Status",
+										"createdAt": "Created At"
+									},
+									"idColumnName": "id",
 
-								"columnsVisuals": {
-									"logo": "icon",
-									"status": "chip"
+									"columnsVisuals": {
+										"logo": "icon",
+										"status": "chip"
+									}
 								}
 							}
 						]
