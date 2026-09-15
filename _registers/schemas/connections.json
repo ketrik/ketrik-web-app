@@ -40,6 +40,8 @@
 									"contentType": "DataGridContent",
 									"columns": ["logo", "id", "name", "status", "createdAt"],
 									"headerTitles": {
+										"logo": "",
+										"id": "ID",
 										"name": "Name",
 										"status": "Status",
 										"createdAt": "Created At"
@@ -49,6 +51,16 @@
 									"columnsVisuals": {
 										"logo": "icon",
 										"status": "chip"
+									},
+									"columnWidths": {
+										"logo": 40,
+										"id": 150
+									},
+									"columnsAlign": {
+										"logo": "center"
+									},
+									"dataFormatters": {
+										"createdAt": "ago"
 									}
 								}
 							}
