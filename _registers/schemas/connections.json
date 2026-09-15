@@ -38,9 +38,10 @@
 								"contentConfig": {
 									"density": "compact",
 									"contentType": "DataGridContent",
+									"sortModel": [{ "field": "createdAt", "sort": "desc" }],
 									"columns": ["logo", "id", "name", "status", "createdAt"],
 									"headerTitles": {
-										"logo": "",
+										"logo": " ",
 										"id": "ID",
 										"name": "Name",
 										"status": "Status",
@@ -54,7 +55,8 @@
 									},
 									"columnWidths": {
 										"logo": 40,
-										"id": 200
+										"id": 200,
+										"createdAt": 100
 									},
 									"columnsAlign": {
 										"logo": "center",
