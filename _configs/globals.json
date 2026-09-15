@@ -537,17 +537,31 @@
 												"href": "/connections/new"
 											}
 										]
+									},
+									{
+										"type": "cardContent",
+										"dataKey": "connections",
+										"dataToArray": true,
+										"contentConfig": {
+											"density": "compact",
+											"contentType": "DataGridContent",
+											"columns": [
+												"logo",
+												"id",
+												"name",
+												"status",
+												"createdAt"
+											]
+										},
+										"headerTitles": {
+											"name": "Name",
+											"status": "Status",
+											"createdAt": "Created At"
+										},
+										"idColumnName": "id",
+										"columnWidth": 200
 									}
 								]
-							},
-							{
-								"type": "cardContent",
-								"dataKey": "connections",
-								"dataToArray": true,
-								"contentConfig": {
-									"density": "compact",
-									"contentType": "DataGridContent"
-								}
 							}
 						]
 					}
