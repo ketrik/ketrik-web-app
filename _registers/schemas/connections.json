@@ -48,6 +48,7 @@
 								"idColumnName": "id",
 
 								"columnsVisuals": {
+									"logo": "icon",
 									"status": "chip"
 								}
 							}

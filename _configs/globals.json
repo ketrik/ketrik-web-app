@@ -559,8 +559,8 @@
 											"createdAt": "Created At"
 										},
 										"idColumnName": "id",
-										"columnWidth": 200,
 										"columnsVisuals": {
+											"logo": "icon",
 											"status": "chip"
 										}
 									}
