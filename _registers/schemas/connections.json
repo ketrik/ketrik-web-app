@@ -47,7 +47,10 @@
 								},
 								"idColumnName": "id",
 
-								"columnWidth": 200
+								"columnWidth": 200,
+								"columnsVisuals": {
+									"status": "chip"
+								}
 							}
 						]
 					}
