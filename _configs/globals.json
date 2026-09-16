@@ -522,7 +522,7 @@
 						"itemSize": 12,
 						"items": [
 							{
-								"header": "New AI Analysis",
+								"header": "Add AI Analysis",
 								"cardConfig": [
 									{
 										"type": "cardContent",
@@ -535,7 +535,6 @@
 										"contentConfig": {
 											"contentType": "DataForm",
 											"schema": {
-												"title": "Agent Context Entry",
 												"type": "object",
 												"required": [
 													"selector",
