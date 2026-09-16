@@ -3,7 +3,7 @@
 		"profile": true
 	},
 	"config": {
-		"header": "New AI Analysis",
+		"header": "Add AI Analysis",
 		"isFullSize": false,
 		"maxWidth": "md",
 		"groups": [
@@ -12,7 +12,6 @@
 				"itemSize": 12,
 				"items": [
 					{
-						"header": "Add AI Analysis",
 						"cardConfig": [
 							{
 								"type": "cardContent",
