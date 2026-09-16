@@ -1,0 +1,135 @@
+{
+	"data": {
+		"profile": true
+	},
+	"config": {
+		"header": "New AI Analysis",
+		"isFullSize": false,
+		"maxWidth": "md",
+		"groups": [
+			{
+				"id": "new_ai_analysis",
+				"itemSize": 12,
+				"items": [
+					{
+						"header": "New AI Analysis",
+						"cardConfig": [
+							{
+								"type": "cardContent",
+								"dataKey": "profile",
+								"actionConfig": {
+									"type": "SAVE_TO_FIRESTORE",
+									"collection": "users",
+									"document": "${uid}"
+								},
+								"contentConfig": {
+									"contentType": "DataForm",
+									"schema": {
+										"title": "Agent Context Entry",
+										"type": "object",
+										"required": ["selector", "contextType", "content"],
+										"properties": {
+											"selector": {
+												"type": "string",
+												"title": "Target / Scope Selector",
+												"description": "Select the target persona, dataset, or scope for this context entry",
+												"oneOf": [
+													{ "const": "triage", "title": "Triage Agent" },
+													{
+														"const": "analyst",
+														"title": "Analyst Agent"
+													},
+													{
+														"const": "sourcing",
+														"title": "Sourcing Agent"
+													},
+													{
+														"const": "global",
+														"title": "All Agents (Global Context)"
+													}
+												]
+											},
+											"contextType": {
+												"type": "string",
+												"title": "Context Type",
+												"default": "instruction",
+												"oneOf": [
+													{
+														"const": "instruction",
+														"title": "System / Behavioral Instruction"
+													},
+													{
+														"const": "dataset_ref",
+														"title": "Knowledge / Dataset Reference"
+													},
+													{
+														"const": "runtime_param",
+														"title": "Runtime Parameter"
+													},
+													{
+														"const": "raw_text",
+														"title": "Raw Knowledge Snippet"
+													}
+												]
+											},
+											"content": {
+												"type": "string",
+												"title": "Context Body / Definition",
+												"description": "Enter the prompt instructions, snippet, or data payload"
+											},
+											"metadata": {
+												"type": "object",
+												"title": "Additional Properties",
+												"properties": {
+													"priority": {
+														"type": "integer",
+														"title": "Priority Order",
+														"default": 10,
+														"minimum": 1,
+														"maximum": 100
+													},
+													"isActive": {
+														"type": "boolean",
+														"title": "Enable in Active Agent Runs",
+														"default": true
+													}
+												}
+											}
+										}
+									},
+									"uiSchema": {
+										"ui:order": [
+											"selector",
+											"contextType",
+											"content",
+											"metadata"
+										],
+										"selector": {
+											"ui:widget": "select",
+											"ui:placeholder": "Select an agent persona or target scope..."
+										},
+										"contextType": {
+											"ui:widget": "radio"
+										},
+										"content": {
+											"ui:widget": "textarea",
+											"ui:options": {
+												"rows": 5,
+												"placeholder": "Enter system prompt snippet, domain constraints, or reference URI..."
+											}
+										},
+										"metadata": {
+											"ui:options": {
+												"collapsible": true
+											}
+										}
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
