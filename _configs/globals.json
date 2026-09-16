@@ -1502,6 +1502,12 @@
 						"itemSize": 12,
 						"items": [
 							{
+								"cardType": "noCard",
+								"cardProps": {
+									"sx": {
+										"display": "flex"
+									}
+								},
 								"cardConfig": [
 									{
 										"type": "cardContent",
