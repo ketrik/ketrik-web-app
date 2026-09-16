@@ -1502,7 +1502,6 @@
 						"itemSize": 12,
 						"items": [
 							{
-								"cardType": "noCard",
 								"cardConfig": [
 									{
 										"type": "cardContent",
