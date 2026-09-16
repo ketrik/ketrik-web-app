@@ -12,7 +12,9 @@
 						"cardType": "noCard",
 						"cardProps": {
 							"sx": {
-								"display": "flex"
+								"display": "flex",
+								"flexDirection": "column",
+								"overflow": "visible"
 							}
 						},
 						"cardConfig": [
