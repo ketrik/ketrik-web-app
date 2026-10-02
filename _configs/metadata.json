@@ -24,10 +24,9 @@
 	},
 	"routes": {
 		"pages_about": {
-			"title": "About Ketrik | AI-Native Operational Shell",
+			"title": "About",
 			"description": "The story and architecture of Ketrik: a schema-driven operational shell with autonomous agents handling monitoring, workflows, and infrastructure with humans in the loop.",
 			"keywords": [
-				"Ketrik",
 				"About Ketrik",
 				"AI-native shell",
 				"autonomous agents",
@@ -36,7 +35,7 @@
 				"agentic primitives"
 			],
 			"openGraph": {
-				"title": "About Ketrik | Story of the AI-Native Shell",
+				"title": "About | Story of the AI-Native Shell",
 				"description": "Discover the story and architecture behind Ketrik — an operational shell bridging business data and autonomous agents.",
 				"images": [
 					{
@@ -49,22 +48,22 @@
 			},
 			"twitter": {
 				"card": "summary_large_image",
-				"title": "About Ketrik | Story of the AI-Native Shell",
+				"title": "About | Story of the AI-Native Shell",
 				"description": "Discover the story and architecture behind Ketrik — an operational shell bridging business data and autonomous agents."
 			}
 		},
 		"pages_pricing": {
-			"title": "Ketrik Pricing | Scoped to Complexity, Not Per-Seat",
+			"title": "Pricing",
 			"description": "Transparent, complexity-based pricing for Ketrik AI-native shell and autonomous agents. Pay for your operational scope, never per seat.",
 			"keywords": [
-				"Ketrik Pricing",
+				"Pricing",
 				"AI platform pricing",
 				"operational shell cost",
 				"enterprise AI pricing",
 				"no per-seat pricing"
 			],
 			"openGraph": {
-				"title": "Ketrik Pricing | Built Around Complexity, Not User Count",
+				"title": "Pricing | Scoped to Complexity, Not Per-Seat",
 				"description": "Fair and transparent pricing scoped to your data complexity and operational scope. Setup integration plus ongoing platform support.",
 				"images": [
 					{
@@ -77,22 +76,22 @@
 			},
 			"twitter": {
 				"card": "summary_large_image",
-				"title": "Ketrik Pricing | Scoped to Complexity, Not Per-Seat",
+				"title": "Pricing | Scoped to Complexity, Not Per-Seat",
 				"description": "Fair and transparent pricing scoped to your data complexity and operational scope."
 			}
 		},
 		"pages_faq": {
-			"title": "Ketrik FAQ | Frequently Asked Questions",
+			"title": "FAQ",
 			"description": "Answers to common questions about Ketrik's AI-native shell, security, real-time ingestion, integrations, and autonomous background agents.",
 			"keywords": [
-				"Ketrik FAQ",
+				"FAQ",
 				"Ketrik agents FAQ",
 				"AI shell architecture",
 				"data integration FAQ",
 				"enterprise security"
 			],
 			"openGraph": {
-				"title": "Ketrik FAQ | Everything You Need to Know",
+				"title": "FAQ | Frequently Asked Questions",
 				"description": "Explore answers to common questions about Ketrik's platform, security compliance, real-time data streaming, and autonomous agents.",
 				"images": [
 					{
@@ -105,15 +104,15 @@
 			},
 			"twitter": {
 				"card": "summary_large_image",
-				"title": "Ketrik FAQ | Frequently Asked Questions",
+				"title": "FAQ | Frequently Asked Questions",
 				"description": "Explore answers to common questions about Ketrik's platform, security compliance, and autonomous agents."
 			}
 		},
 		"pages_articles": {
-			"title": "Articles & Insights | Ketrik Research",
+			"title": "Articles",
 			"description": "Research papers and technical insights on AI-native architectures, state machines as systems, sequential rendering, and emergent agent swarms.",
 			"keywords": [
-				"Ketrik Articles",
+				"Articles",
 				"AI research papers",
 				"state machine architecture",
 				"emergent agent swarms",
@@ -121,7 +120,7 @@
 				"stateless LLM agents"
 			],
 			"openGraph": {
-				"title": "Ketrik Articles & Insights | Technical Working Papers",
+				"title": "Articles & Insights | Technical Working Papers",
 				"description": "In-depth research on persistent topology, emergent agent topologies, cooperative rendering, and AI-native system design.",
 				"images": [
 					{
@@ -134,21 +133,21 @@
 			},
 			"twitter": {
 				"card": "summary_large_image",
-				"title": "Ketrik Articles & Insights | Technical Working Papers",
+				"title": "Articles & Insights | Technical Working Papers",
 				"description": "In-depth research on persistent topology, emergent agent topologies, and AI-native system design."
 			}
 		},
 		"pages_articles_3": {
-			"title": "Research Article | Ketrik",
+			"title": "Research Article",
 			"description": "Read Ketrik's research paper on advanced distributed architectures, autonomous agents, and persistent state machines.",
 			"keywords": [
-				"Ketrik Research",
+				"Research Article",
 				"AI Systems Paper",
 				"Distributed Systems",
 				"Autonomous Agents"
 			],
 			"openGraph": {
-				"title": "Research Article | Ketrik",
+				"title": "Research Article",
 				"description": "Read Ketrik's research paper on advanced distributed architectures, autonomous agents, and persistent state machines.",
 				"images": [
 					{
@@ -161,21 +160,21 @@
 			},
 			"twitter": {
 				"card": "summary_large_image",
-				"title": "Research Article | Ketrik",
+				"title": "Research Article",
 				"description": "Read Ketrik's research paper on advanced distributed architectures, autonomous agents, and persistent state machines."
 			}
 		},
 		"pages_privacy": {
-			"title": "Privacy Policy | Ketrik",
+			"title": "Privacy Policy",
 			"description": "Ketrik's Privacy Policy explaining what information we collect, how it is processed under GDPR/CCPA, data security, and your privacy rights.",
 			"keywords": [
-				"Ketrik Privacy Policy",
+				"Privacy Policy",
 				"data privacy",
 				"GDPR compliance",
 				"CCPA"
 			],
 			"openGraph": {
-				"title": "Privacy Policy | Ketrik",
+				"title": "Privacy Policy",
 				"description": "Learn how Ketrik handles and protects your personal and operational data.",
 				"images": [
 					{
@@ -188,20 +187,20 @@
 			},
 			"twitter": {
 				"card": "summary_large_image",
-				"title": "Privacy Policy | Ketrik",
+				"title": "Privacy Policy",
 				"description": "Learn how Ketrik handles and protects your personal and operational data."
 			}
 		},
 		"pages_terms": {
-			"title": "Terms of Service | Ketrik",
+			"title": "Terms of Service",
 			"description": "Ketrik's Terms of Service governing access to and usage of the Ketrik platform, customer content ownership, and operational policies.",
 			"keywords": [
-				"Ketrik Terms of Service",
+				"Terms of Service",
 				"terms of use",
 				"user agreement"
 			],
 			"openGraph": {
-				"title": "Terms of Service | Ketrik",
+				"title": "Terms of Service",
 				"description": "Review Ketrik's Terms of Service and user agreement.",
 				"images": [
 					{
@@ -214,7 +213,7 @@
 			},
 			"twitter": {
 				"card": "summary_large_image",
-				"title": "Terms of Service | Ketrik",
+				"title": "Terms of Service",
 				"description": "Review Ketrik's Terms of Service and user agreement."
 			}
 		}
