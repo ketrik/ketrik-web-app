@@ -26,5 +26,34 @@
 			},
 			"actionLog": []
 		}
-	]
+	],
+
+	"items": {
+		"ketrik_paper_state_machine_2026_08": {
+			"id": "ketrik_paper_state_machine_2026_08",
+			"category": "system_operational",
+			"title": "Ketrik Architecture Whitepaper",
+			"body": "⚡ Curious about the Ketrik Architecture? Read the whitepaper to see how it orchestrates AI agents, runs long tasks, and keeps humans in control.",
+			"status": "unread",
+			"createdAt": "2026-08-09T00:00:00Z",
+			"readAt": null,
+			"actionConfig": {
+				"type": "NAVIGATE",
+				"payload": {
+					"actionLabel": "Read Paper",
+					"actionUrl": "/pages/articles",
+					"openInNewTab": false
+				}
+			},
+			"metadata": {
+				"layoutType": "time_sensitive",
+				"severity": "info",
+				"validFrom": "2026-08-09T00:00:00Z",
+				"displayAsSingleUntil": "2026-08-15T00:00:00Z",
+				"validUntil": "2027-08-09T23:59:59Z",
+				"isDismissible": false
+			},
+			"actionLog": []
+		}
+	}
 }

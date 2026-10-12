@@ -652,6 +652,9 @@
 			"dataPath": {
 				"path": "users/${uid}/context/connections"
 			},
+			"initData": {
+				"a": true
+			},
 			"config": {
 				"header": "Connections",
 				"isFullSize": false,
@@ -1788,6 +1791,18 @@
 									{
 										"type": "cardContent",
 										"dataKey": "terms",
+										"sx": {
+											"minHeight": {
+												"xs": "80vh",
+												"md": "65dvh"
+											},
+											"maxHeight": {
+												"xs": "80vh",
+												"md": "65dvh"
+											}
+										},
+										"contentType": "Markdown",
+										"scrollable": true,
 										"contentConfig": {
 											"sx": {
 												"minHeight": {

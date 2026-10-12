@@ -46,6 +46,7 @@
 	"remmeberMeLabel": "Remember me",
 	"forgotPasswordEnabled": true,
 	"forgotPasswordLabel": "Forgot password?",
+
 	"_layoutSidebarType": "default",
 	"_layoutHeaderType": "default",
 	"_layoutVariant": "row",

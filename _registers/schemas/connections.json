@@ -2,7 +2,7 @@
 	"dataPath": {
 		"path": "users/${uid}/context/connections"
 	},
-
+	"initData": { "a": true },
 	"config": {
 		"header": "Connections",
 		"isFullSize": false,
