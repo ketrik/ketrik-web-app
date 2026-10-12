@@ -1531,17 +1531,17 @@
 												"hasConfirmedOnboardingAt": "${now}"
 											}
 										},
-										"scrollable": true,
 										"sx": {
-											"minHeight": {
-												"xs": "30vh",
+											"height": {
+												"xs": "75vh",
 												"md": "65dvh"
 											},
 											"maxHeight": {
 												"xs": "75vh",
 												"md": "65dvh"
 											},
-											"p": "0px!important"
+											"display": "flex",
+											"flexDirection": "column"
 										},
 										"contentConfig": {
 											"contentType": "Chatbot",
