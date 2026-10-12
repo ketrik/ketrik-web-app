@@ -1791,19 +1791,19 @@
 									{
 										"type": "cardContent",
 										"dataKey": "terms",
-										"contentConfig": {
-											"sx": {
-												"minHeight": {
-													"xs": "80vh",
-													"md": "65dvh"
-												},
-												"maxHeight": {
-													"xs": "80vh",
-													"md": "65dvh"
-												}
+										"sx": {
+											"minHeight": {
+												"xs": "80vh",
+												"md": "65dvh"
 											},
-											"contentType": "Markdown",
-											"scrollable": true
+											"maxHeight": {
+												"xs": "80vh",
+												"md": "65dvh"
+											}
+										},
+										"scrollable": true,
+										"contentConfig": {
+											"contentType": "Markdown"
 										}
 									},
 									{
