@@ -122,6 +122,23 @@
 										}
 									]
 								}
+							},
+
+							{
+								"type": "cardAction",
+								"sx": {
+									"justifyContent": "center"
+								},
+								"buttons": [
+									{
+										"label": "Sign Out",
+										"variant": "outlined",
+										"color": "error",
+										"actionConfig": {
+											"type": "LOGOUT"
+										}
+									}
+								]
 							}
 						]
 					}
