@@ -1531,20 +1531,20 @@
 												"hasConfirmedOnboardingAt": "${now}"
 											}
 										},
+										"scrollable": true,
+										"sx": {
+											"minHeight": {
+												"xs": "30vh",
+												"md": "65dvh"
+											},
+											"maxHeight": {
+												"xs": "75vh",
+												"md": "65dvh"
+											},
+											"p": "0px!important"
+										},
 										"contentConfig": {
 											"contentType": "Chatbot",
-											"scrollable": true,
-											"sx": {
-												"minHeight": {
-													"xs": "30vh",
-													"md": "65dvh"
-												},
-												"maxHeight": {
-													"xs": "75vh",
-													"md": "65dvh"
-												},
-												"p": "0px!important"
-											},
 											"inputConfig": {
 												"initialMode": "auto",
 												"maxHeight": 280,
@@ -1793,11 +1793,11 @@
 										"dataKey": "terms",
 										"sx": {
 											"minHeight": {
-												"xs": "80vh",
+												"xs": "70vh",
 												"md": "65dvh"
 											},
 											"maxHeight": {
-												"xs": "80vh",
+												"xs": "70vh",
 												"md": "65dvh"
 											}
 										},
