@@ -1518,6 +1518,23 @@
 								},
 								"cardConfig": [
 									{
+										"type": "cardAction",
+										"sx": {
+											"justifyContent": "flex-end"
+										},
+										"buttons": [
+											{
+												"label": "Sign Out",
+												"variant": "outlined",
+												"color": "error",
+												"actionConfig": {
+													"type": "LOGOUT"
+												},
+												"size": "small"
+											}
+										]
+									},
+									{
 										"type": "cardContent",
 										"actionConfig": {
 											"type": "SAVE_TO_FIRESTORE",
@@ -1622,22 +1639,6 @@
 												}
 											]
 										}
-									},
-									{
-										"type": "cardAction",
-										"sx": {
-											"justifyContent": "center"
-										},
-										"buttons": [
-											{
-												"label": "Sign Out",
-												"variant": "outlined",
-												"color": "error",
-												"actionConfig": {
-													"type": "LOGOUT"
-												}
-											}
-										]
 									}
 								]
 							}
