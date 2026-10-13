@@ -3336,29 +3336,31 @@
 		"items": {
 			"ketrik_paper_state_machine_2026_08": {
 				"id": "ketrik_paper_state_machine_2026_08",
+				"schemaVersion": 1,
+				"channelId": "global",
+				"tenantId": null,
+				"kind": "system.announcement",
 				"category": "system_operational",
+				"timestamp": "2026-08-09T00:00:00Z",
+				"ttl": "2027-08-09T23:59:59Z",
 				"title": "Ketrik Architecture Whitepaper",
-				"body": "⚡ Curious about the Ketrik Architecture? Read the whitepaper to see how it orchestrates AI agents, runs long tasks, and keeps humans in control.",
-				"status": "unread",
-				"createdAt": "2026-08-09T00:00:00Z",
-				"readAt": null,
-				"actionConfig": {
+				"text": "⚡ Curious about the Ketrik Architecture? Read the whitepaper to see how it orchestrates AI agents, runs long tasks, and keeps humans in control.",
+				"severity": "info",
+				"layoutType": "time_sensitive",
+				"action": {
 					"type": "NAVIGATE",
-					"payload": {
-						"actionLabel": "Read Paper",
-						"actionUrl": "/pages/articles",
-						"openInNewTab": false
-					}
+					"label": "Read Paper",
+					"url": "/pages/articles",
+					"openInNewTab": false
 				},
-				"metadata": {
-					"layoutType": "time_sensitive",
-					"severity": "info",
+				"__": {
+					"scope": "global",
+					"active": true,
 					"validFrom": "2026-08-09T00:00:00Z",
+					"expiresAt": "2027-08-09T23:59:59Z",
 					"displayAsSingleUntil": "2026-08-15T00:00:00Z",
-					"validUntil": "2027-08-09T23:59:59Z",
 					"isDismissible": false
-				},
-				"actionLog": []
+				}
 			}
 		}
 	}
