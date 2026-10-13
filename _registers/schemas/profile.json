@@ -17,6 +17,12 @@
 							{
 								"type": "cardContent",
 								"dataKey": "profile",
+								"dataKeys": [
+									"displayName",
+									"companyName",
+									"companyUrl",
+									"profession"
+								],
 								"actionConfig": {
 									"type": "SAVE_TO_FIRESTORE",
 									"collection": "users",
