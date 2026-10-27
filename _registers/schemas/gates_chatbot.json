@@ -20,6 +20,7 @@
 								"minHeight": 0
 							}
 						},
+
 						"cardConfig": [
 							{
 								"type": "cardAction",
@@ -57,7 +58,13 @@
 									"display": "flex",
 									"flexDirection": "column"
 								},
-
+								"dataKey": "profile",
+								"dataKeys": [
+									"displayName",
+									"companyName",
+									"companyUrl",
+									"profession"
+								],
 								"contentConfig": {
 									"contentType": "Chatbot",
 									"inputConfig": {

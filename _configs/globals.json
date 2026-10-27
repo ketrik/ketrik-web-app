@@ -608,6 +608,13 @@
 											"display": "flex",
 											"flexDirection": "column"
 										},
+										"dataKey": "profile",
+										"dataKeys": [
+											"displayName",
+											"companyName",
+											"companyUrl",
+											"profession"
+										],
 										"contentConfig": {
 											"contentType": "Chatbot",
 											"inputConfig": {
@@ -716,6 +723,12 @@
 									{
 										"type": "cardContent",
 										"dataKey": "profile",
+										"dataKeys": [
+											"displayName",
+											"companyName",
+											"companyUrl",
+											"profession"
+										],
 										"actionConfig": [
 											{
 												"type": "BATCH",
