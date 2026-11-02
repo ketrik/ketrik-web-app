@@ -40,8 +40,7 @@
 									{
 										"actionConfig": {
 											"type": "SAVE_TO_FIRESTORE",
-											"collection": "users",
-											"document": "${uid}",
+											"path": "users/${uid}",
 											"data": {
 												"hasAcceptedTerms": true,
 												"hasAcceptedTermsAt": "${now}"
