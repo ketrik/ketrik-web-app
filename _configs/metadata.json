@@ -1,13 +1,13 @@
 {
-	"title": "Ketrik — AI-Native Operational Command Surface & Workflow Automation",
-	"description": "Ketrik is an AI-native operational command surface and workflow engine that connects enterprise systems, orchestrates autonomous agents, and automates complex business operations with human-in-the-loop oversight.",
+	"title": "Ketrik | AI-Native Agentic Solutions & Workflow Automation",
+	"description": "The Ketrik system brings native agents directly into a visual GUI shell. Ask agents to handle operations and run agentic workflows across dynamic pages effortlessly.",
 	"icons": {
 		"icon": "/_assets/favicon.ico",
 		"apple": "/_assets/apple-touch-icon.png"
 	},
 	"openGraph": {
-		"title": "Ketrik — AI-Native Operational Command Surface & Workflow Automation",
-		"description": "Ketrik is an AI-native operational command surface and workflow engine that connects enterprise systems, orchestrates autonomous agents, and automates complex business operations with human-in-the-loop oversight.",
+		"title": "Ketrik | AI-Native Agentic Solutions & Workflow Automation",
+		"description": "The Ketrik system brings native agents directly into a visual GUI shell. Ask agents to handle operations and run agentic workflows across dynamic pages effortlessly.",
 		"images": [
 			{
 				"url": "/_assets/og-image.png",
